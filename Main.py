@@ -126,8 +126,7 @@ class Crystal:
         command_text = name_+str(pos)
         self.button = tk.Button(master=parent_frame,
                                 text=text,
-                                command=lambda name=command_text: parent.button_press(name, self.descr),
-                                font=('Arial', 18))
+                                command=lambda name=command_text: parent.button_press(name, self.descr))
 
 
 class MainWindow(tk.Tk):
@@ -364,7 +363,10 @@ class MainWindow(tk.Tk):
 
                     self.crystals[name].button.configure(fg=_from_rgb((int(self.crystals[name].text_red),
                                                                        int(self.crystals[name].text_green),
-                                                                       int(self.crystals[name].text_blue)))
+                                                                       int(self.crystals[name].text_blue))),
+                                                         activeforeground=_from_rgb((int(self.crystals[name].text_red),
+                                                                                     int(self.crystals[name].text_green),
+                                                                                     int(self.crystals[name].text_blue)))
                                                          )
 
                     if self.num_pixels - 1 >= self.crystals[name].pixel >= 0 and \
