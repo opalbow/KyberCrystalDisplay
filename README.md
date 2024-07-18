@@ -1,6 +1,8 @@
+I have moved the files into folders so the holocron stand 3Ds file are foldered seperate to the file for the kyber crystal display stand.
+
 The code for the screen & NeoPixel control will not work with Rasberry Pi 5's. This is due to a change in how the GPIO pins are controlled. This is out of my control and a limitation on the NeoPixel python library.
 
-Please do not rename any of the files or items within the database. This will break the program. Inside the database file you can adjust the coloumns with values. I will provide a seperate file detailing how to update the database to customise how your program runs.
+Please do not rename any of the files or items within the database. This will break the program. Inside the database file you can adjust the coloumns with values. I have provided a word doc showing you how to customise the data base settings.
 
 For refernce all code has been tested on Python version = 3.7.4 & 3.9.2
 
