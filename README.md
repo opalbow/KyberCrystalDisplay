@@ -1,3 +1,6 @@
+If you like these STL files and/or the python code please consider buying me a coffee here;
+https://buymeacoffee.com/opalbow
+
 I have moved the files into folders so the holocron stand 3Ds file are foldered seperate to the file for the kyber crystal display stand.
 
 The code for the screen & NeoPixel control will not work with Rasberry Pi 5's. This is due to a change in how the GPIO pins are controlled. This is out of my control and a limitation on the NeoPixel python library.
