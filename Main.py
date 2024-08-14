@@ -190,6 +190,9 @@ class Crystal:
         self.button = tk.Button(master=parent_frame,
                                 text=text,
                                 relief=tk.FLAT,
+                                bg="black",
+                                activebackground="black",
+                                activeforeground="white",
                                 command=lambda name=command_text: parent.__button_press__(name, self.descr))
 
 
